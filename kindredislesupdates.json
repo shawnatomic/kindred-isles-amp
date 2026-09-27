@@ -1,0 +1,20 @@
+[
+    {
+        "UpdateStageName": "Game Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "{{DownloadURL}}",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Create Saves Folder",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullRootDir}}saves",
+        "SkipOnFailure": false
+    }
+]

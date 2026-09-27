@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": 7777,
+        "Ref": "ServerPort",
+        "Name": "Game Port",
+        "Description": "The port players connect to (UDP)"
+    }
+]

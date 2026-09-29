@@ -3,9 +3,9 @@
  "authors": [
   "Shawn"
  ],
- "origin": "https://github.com/ShawnAtomic/kindred-isles-amp.git",
- "url": "https://github.com/YOUR-GITHUB-NAME/kindred-isles-amp",
- "imagefile": "",
+ "origin": "https://github.com/shawnatomic/kindred-isles-amp.git",
+ "url": "https://github.com/shawnatomic/kindred-isles-amp",
+ "imagefile": "kindredisles.png",
  "prefix": "",
  "repotype": "AppTemplates"
 }

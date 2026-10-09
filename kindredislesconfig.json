@@ -56,6 +56,65 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Keep Time Running When Empty",
+        "Category": "Kindred Isles:cottage",
+        "Subcategory": "Server:dns:1",
+        "Description": "Off (default): the island's clock pauses while nobody is online, so crops and villagers wait for you. On: days keep passing with nobody on.",
+        "Keywords": "time,empty,pause,clock",
+        "FieldName": "RunWhenEmpty",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "RunWhenEmpty",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "",
+            "True": "--run-when-empty"
+        }
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Kindred Isles:cottage",
+        "Subcategory": "Server:dns:1",
+        "Description": "How many players can be on the island at once (2-32). 8 is the tested number.",
+        "Keywords": "players,max,slots",
+        "FieldName": "MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "MaxPlayers",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "8",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Welcome Message",
+        "Category": "Kindred Isles:cottage",
+        "Subcategory": "Server:dns:1",
+        "Description": "A line every player sees a few seconds after joining (up to 200 letters). Leave empty for none.",
+        "Keywords": "welcome,motd,message",
+        "FieldName": "Motd",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "Motd",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Allowed Players",
+        "Category": "Kindred Isles:cottage",
+        "Subcategory": "Server:dns:1",
+        "Description": "Only these character names may join (on top of the password). Separate names with commas. Leave empty to let anyone with the password in. Admins are always allowed.",
+        "Keywords": "allow,whitelist,players",
+        "FieldName": "AllowList",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "AllowList",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Discord Webhook for Reports",
         "Category": "Kindred Isles:cottage",
         "Subcategory": "Server:dns:1",

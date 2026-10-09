@@ -31,7 +31,7 @@ App.ExecutableLinux=
 App.WorkingDir=KindredIsles
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=--headless -- --server --port={{$ServerPort}} --town={{WorldName}} --password={{ServerPassword}} --admin={{Admins}} --day-length={{DayLength}} --save-dir=../saves --webhook={{Webhook}}
+App.CommandLineArgs=--headless -- --server --port={{$ServerPort}} --town={{WorldName}} --password={{ServerPassword}} --admin={{Admins}} --day-length={{DayLength}} --max-players={{MaxPlayers}} "--motd={{Motd}}" --allow={{AllowList}} {{RunWhenEmpty}} --save-dir=../saves --webhook={{Webhook}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={}

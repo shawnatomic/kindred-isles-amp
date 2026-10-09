@@ -5,5 +5,12 @@
         "Ref": "ServerPort",
         "Name": "Game Port",
         "Description": "The port players connect to (UDP)"
+    },
+    {
+        "Protocol": "UDP",
+        "Port": 7778,
+        "Ref": "StatusPort",
+        "Name": "Status Port",
+        "Description": "The title screen's server card asks here who's on and what day it is. Must be the Game Port + 1 (UDP)"
     }
 ]
